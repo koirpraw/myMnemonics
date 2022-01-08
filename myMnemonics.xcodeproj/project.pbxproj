@@ -14,6 +14,7 @@
 		37C847352789022400E90382 /* myMnemonicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C847342789022400E90382 /* myMnemonicsTests.swift */; };
 		37C8473F2789022400E90382 /* myMnemonicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8473E2789022400E90382 /* myMnemonicsUITests.swift */; };
 		37C847412789022400E90382 /* myMnemonicsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C847402789022400E90382 /* myMnemonicsUITestsLaunchTests.swift */; };
+		37C847502789069E00E90382 /* MnemonicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8474F2789069E00E90382 /* MnemonicRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		37C8473A2789022400E90382 /* myMnemonicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMnemonicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C8473E2789022400E90382 /* myMnemonicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMnemonicsUITests.swift; sourceTree = "<group>"; };
 		37C847402789022400E90382 /* myMnemonicsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMnemonicsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37C8474F2789069E00E90382 /* MnemonicRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				37C84725278901F500E90382 /* ContentView.swift */,
 				37C847272789022300E90382 /* Assets.xcassets */,
 				37C847292789022300E90382 /* Preview Content */,
+				37C8474F2789069E00E90382 /* MnemonicRow.swift */,
 			);
 			path = myMnemonics;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C84726278901F500E90382 /* ContentView.swift in Sources */,
+				37C847502789069E00E90382 /* MnemonicRow.swift in Sources */,
 				37C84724278901F500E90382 /* myMnemonicsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

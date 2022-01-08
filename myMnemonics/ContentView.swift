@@ -9,8 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+
+            List {
+                MnemonicRow(category: "Running",subtitles: "Track your running stats")
+                MnemonicRow(category: "Walking",subtitles: "track your everyday walks")
+                MnemonicRow(category: "Swimming",subtitles: "Swimming Laps and more..")
+                MnemonicRow(category: "Meditation",subtitles: "Mindfullness and quite hours")
+            }
+        
+        
     }
 }
 
